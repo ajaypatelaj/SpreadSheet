@@ -309,7 +309,7 @@ $.fn.spreadsheet = function ( options )
     var nWidth = oCell.width();
     var nHeight = oCell.height()
     
-    ctrl.css( { position: 'fixed' } );
+    ctrl.css( { position: 'absolute' } );
     ctrl.css( { left: nLeft + "px", top: nTop + "px" } );
     ctrl.width( nWidth - 4 );
     ctrl.height( nHeight - 4 );
